@@ -1,13 +1,8 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+*[Project Setup] https://github.com/ounmuhammad32/HerokuHW/actions
 
-* [Production Deployment](https://kwilliam-prod.herokuapp.com/)
-
-
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
-
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* [Oun's App] https://oun-site.herokuapp.com
 
 ## Setting up CI/CD
 testing CI/CD
