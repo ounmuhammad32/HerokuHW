@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <!---Carousel--->
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item outset active">
+                        <a href="{{ url_for('simple_pages.show', page="page1") }}">
+                            <img src="{{ url_for('static', filename='images/github.png') }}" class="d-block w-100"
+                                 alt="...">
+                        </a></div>
+                    <div class="carousel-item outset">
+                        <a href="{{ url_for('simple_pages.show', page="page3") }}">
+                            <img src="{{ url_for('static', filename='images/python-flask.png') }}" class="d-block w-100"
+                                 alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item outset">
+                        <a href="{{ url_for('simple_pages.show', page="page2") }}">
+                            <img src="{{ url_for('static', filename='images/docker.png') }}" class="d-block w-100"
+                                 alt="...">
+                        </a></div>
+                    <div class="carousel-item outset">
+                        <a href="{{ url_for('simple_pages.show', page="page4") }}">
+                            <img src="{{ url_for('static', filename='images/cicd.png') }}" class="d-block w-100"
+                                 alt="...">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------------------------CARDS----------------------------------->
+
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-sm-3 d-flex align-items-stretch">
+                <div class="card text-white bg-secondary">
+                    <div class="card-header">
+                        Git an GitHub
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">Visit link below to explore GitHub</p>
+                        <a href="https://github.com/" class="card-link darkgrey">https://github.com/</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 d-flex align-items-stretch">
+                <div class="card text-white bg-secondary">
+                    <div class="card-header">
+                        Docker and DockerHub
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Docker</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text font18">Visit link below to discover Docker and DockerHub</p>
+                        <a href="#" class="card-link darkgrey">https://www.nycgo.com/</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 d-flex align-items-stretch">
+                <div class="card text-white bg-secondary">
+                    <div class="card-header">
+                        Python and Flask
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Python and Flask</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Python and Flask</h6>
+                        <p class="card-text font18 ">Visit link below to explore Python and Flask</p>
+                        <a href="#" class="card-link darkgrey">https://visitdetroit.com/</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 d-flex align-items-stretch">
+                <div class="card text-white bg-secondary">
+                    <div class="card-header">
+                        CI/CD
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Continuous Integration/Continuous Deployment
+                        </h5>
+                        <p class="card-text font18">Visit link below to learn more about CI/CD</p>
+                        <a href="#" class="card-link darkgrey">https://bit.ly/3h9vIsC</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

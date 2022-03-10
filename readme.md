@@ -1,8 +1,13 @@
 # Project Setup
+*[Project Setup] https://github.com/ounmuhammad32/HerokuHW/actions
+
+
+* [Oun's App] https://oun-site.herokuapp.com
 
 *[Project Setup] https://github.com/ounmuhammad32/HerokuHW/actions
 
 * [Oun's App] https://oun-site.herokuapp.com
+* 
 
 ## Setting up CI/CD
 testing CI/CD
